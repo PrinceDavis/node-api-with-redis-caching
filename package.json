@@ -1,12 +1,19 @@
 {
   "name": "api-with-redis-caching",
   "version": "1.0.0",
-  "description": "",
+  "description": "A node web-service demonstrating how to catch data with redis",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrinceDavis/node-api-with-redis-caching.git"
+  },
   "author": "Ossaija ThankGod <codebugsolved@gmail.com> (https://github.com/princedavis)",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrinceDavis/node-api-with-redis-caching/issues"
+  },
+  "homepage": "https://github.com/PrinceDavis/node-api-with-redis-caching#readme"
 }
