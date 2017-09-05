@@ -1,7 +1,8 @@
+'use strict'
 const _ = require('lodash')
 
 module.exports = app => {
-  _cats = []
+  const _cats = []
 
   /* Create */
   app.post('/cat', (req, res) => {
