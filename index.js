@@ -12,6 +12,7 @@ mongoose.connect(process.env.MONGODB_URI, {
   useMongoClient: true
 })
 
+require('./model/cat')
 // configuring our app
 const app = express()
 app.use(bodyParser.json())
@@ -20,7 +21,7 @@ app.use(bodyParser.urlencoded({
 }))
 
 // pulling up our routes
-const cat = require('./cats')(app)
+const cat = require('./cats-routes')(app)
 
 // running our server
 const server = app.listen(3000, () => {
